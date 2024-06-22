@@ -107,7 +107,7 @@ const showScreen = (name: ScreenType): void => {
 let myAddress: Address | null;
 
 const tonConnectUI = new TonConnectUI({
-    manifestUrl: 'https://multisig.ton.org/tonconnect-manifest.json',
+    manifestUrl: 'https://multisig.vabdu.foundation/tonconnect-manifest.json',
     buttonRootId: 'tonConnectButton'
 });
 
